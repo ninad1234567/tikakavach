@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/viewpdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="448dp"
+        android:text="Vaccine available"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="448dp"
+        android:text="vaccine form"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="358dp"
+        android:text="Talk to a doctor"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="359dp"
+        android:text="Covid  Info"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-104dp"
+        app:srcCompat="@drawable/dark" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="108dp"
+        android:text="ABOUT US"
+        android:textColor="#95BCDC"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="286dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="55dp"
+        android:text="STAY HEALTHY!!! STAY SAFE!!!"
+        android:textColor="@color/end_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

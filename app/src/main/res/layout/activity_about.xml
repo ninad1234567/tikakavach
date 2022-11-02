@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".doctor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="7dp"
+            android:text="@string/about_us"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/doctors"/>
+
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:padding="4dp"
+            android:text="@string/part_one"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="@string/part_two"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="@string/part_three"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="@string/part_four"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="@string/end"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="334dp"
+            android:layout_height="31dp"
+            android:gravity="right"
+            android:text="developed by @ninad @bibin @ sejal @ancia"
+            android:textSize="10dp"
+            android:textStyle="italic"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.363"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95" />
+
+
+
+        ></LinearLayout>
+
+</ScrollView>
